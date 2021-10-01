@@ -33,7 +33,7 @@ function showList(jsonObj) {
         col9.className = "col-9";
         h5.className = "text-muted";
         dates.className = "text-muted";
-        title.setAttribute('href','./norma/?contentid='+result[i]['contentID']);
+        title.setAttribute('href','../norma/?contentid='+result[i]['contentID']);
 
         const labels=result[i]['labels'];
         if(labels.length>0){
